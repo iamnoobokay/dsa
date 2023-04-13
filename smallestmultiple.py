@@ -1,16 +1,16 @@
 def smallestmultiple():
     
-    quotient = 10
+    quotient = 20
     while(True):
         count = 0
-        for j in range(11):
+        for j in range(21):
             if(j == 0):
                 continue
             if quotient % j == 0:
                 count = count + 1
 
             # print(flag)
-            if(j == 10 and count == 10):
+            if(j == 20 and count == 20):
                 return quotient
         quotient = quotient + 1
         # print(quotient)

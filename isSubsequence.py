@@ -17,6 +17,8 @@ class Solution(object):
             return False
 
 
+s = Solution()
+s.isSubsequence('paa','pranav')
 
 
 
@@ -113,5 +115,3 @@ class Solution(object):
 
 # isseq(q,t)
         
-s = Solution()
-s.isSubsequence('aaaaaa','bbaaaa')
